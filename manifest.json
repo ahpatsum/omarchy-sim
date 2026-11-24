@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tamdintdesign.sim",
+  "name": "SIM",
+  "version": "0.1.0",
+  "author": "tamdintdesign",
+  "description": "Inspect the SIM, cellular modem and mobile network without starting a data session.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "SIM",
+    "description": "Cellular modem and SIM diagnostics",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "license": "MIT"
+}
